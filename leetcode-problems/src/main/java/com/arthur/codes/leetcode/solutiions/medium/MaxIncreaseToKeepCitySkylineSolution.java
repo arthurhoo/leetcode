@@ -1,4 +1,4 @@
-package com.arthur.codes.leetcode.solutiions;
+package com.arthur.codes.leetcode.solutiions.medium;
 
 /**
  * Solution of problem:
