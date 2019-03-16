@@ -11,6 +11,8 @@
     <modules>
         <module>leetcode-problems</module>
         <module>algs4</module>
+        <module>jdk-jvm</module>
+        <module>data-structure</module>
     </modules>
 
 
