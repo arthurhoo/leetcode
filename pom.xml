@@ -13,6 +13,7 @@
         <module>algs4</module>
         <module>jdk-jvm</module>
         <module>data-structure</module>
+        <module>multiple-threads</module>
     </modules>
 
 
