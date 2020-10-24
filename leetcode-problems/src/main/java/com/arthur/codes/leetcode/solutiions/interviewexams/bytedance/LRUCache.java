@@ -1,4 +1,4 @@
-package com.arthur.codes.leetcode.solutiions.bytedance;
+package com.arthur.codes.leetcode.solutiions.interviewexams.bytedance;
 
 import java.util.Deque;
 import java.util.HashMap;

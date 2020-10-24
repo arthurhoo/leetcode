@@ -1,4 +1,4 @@
-package com.arthur.codes.leetcode.solutiions.bytedance;
+package com.arthur.codes.leetcode.solutiions.interviewexams.bytedance;
 
 /**
  *
