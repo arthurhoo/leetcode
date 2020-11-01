@@ -1,5 +1,6 @@
 package com.arthur.java.multithread;
 
+import java.util.LinkedList;
 import java.util.concurrent.TimeUnit;
 
 /**
@@ -43,5 +44,6 @@ public class ThreadShutdownCase {
         public void stop(){
             run = false;
         }
+       LinkedList<Integer> linkedList = new LinkedList<>();
     }
 }
