@@ -14,6 +14,8 @@
         <module>jdk-jvm</module>
         <module>data-structure</module>
         <module>multiple-threads</module>
+        <module>spring-features</module>
+        <module>java-spi</module>
     </modules>
     <properties>
 <!--        <maven.compiler.source>1.8</maven.compiler.source>-->
