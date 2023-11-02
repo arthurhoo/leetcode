@@ -16,6 +16,7 @@
         <module>multiple-threads</module>
         <module>spring-features</module>
         <module>java-spi</module>
+        <module>netty-examples</module>
     </modules>
     <properties>
 <!--        <maven.compiler.source>1.8</maven.compiler.source>-->
