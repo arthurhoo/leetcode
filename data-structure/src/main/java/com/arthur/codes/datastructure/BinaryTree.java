@@ -16,7 +16,7 @@ public class BinaryTree<T extends Comparable<T>> {
      * Node class of Binary Tree
      * @param <V>
      */
-    static class TreeNode<V extends Comparable<V>>{
+    public static class TreeNode<V extends Comparable<V>>{
 
 
         private V value;

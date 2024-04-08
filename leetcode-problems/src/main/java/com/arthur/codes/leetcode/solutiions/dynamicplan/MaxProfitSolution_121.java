@@ -16,15 +16,22 @@ package com.arthur.codes.leetcode.solutiions.dynamicplan;
  */
 
 
-public class MaxProfitSolution {
+public class MaxProfitSolution_121 {
 
 
     /**
+     *
      * 遍历数组，记录盈利和相应日期
+     *
      * @param prices
      * @return
      */
-    public int maxProfit(int[] prices) {
+    /**
+     * 以下方法超出时间限制---暴力破解
+     * @param prices
+     * @return
+     */
+    public int maxProfit_invalid(int[] prices) {
 
 
         int maxProfit = 0;
@@ -45,13 +52,22 @@ public class MaxProfitSolution {
 
     }
 
+    public int maxProfit(int[] prices) {
+        int maxProfit = 0;
+
+
+
+        return maxProfit;
+
+    }
+
 
     public static void main(String[] args){
-        MaxProfitSolution maxProfitSolution = new MaxProfitSolution();
+        MaxProfitSolution_121 maxProfitSolution121 = new MaxProfitSolution_121();
 
         int[] a = new int[]{7,1,5,3,6,4};
 
-        System.out.println(maxProfitSolution.maxProfit(a));
+        System.out.println(maxProfitSolution121.maxProfit_invalid(a));
 
     }
 
