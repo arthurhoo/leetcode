@@ -1,4 +1,4 @@
-package com.arthur.codes.leetcode.solutiions.dynamicplan;
+package com.arthur.codes.leetcode.solutiions.dynamicprogram;
 
 /**
  * @author: Arthur Hu

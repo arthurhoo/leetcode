@@ -40,8 +40,6 @@ public class MoveZeroL283 {
         if(null == nums || nums.length < 1 || nums.length > 104 ){
             throw new IllegalArgumentException("非法输入");
         }
-        int zeroCount = 0;
-
         // 记录末尾 0 的数量
         int zeroesCount = 0;
         for (int i = 0; i < nums.length - zeroesCount; i++) {
