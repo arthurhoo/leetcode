@@ -77,9 +77,30 @@ public class MergeTwoListsSolution {
         int val;
         ListNode next;
         ListNode(int x) { val = x; }
+        ListNode() {}
+        ListNode(int val, ListNode next) { this.val = val; this.next = next; }
 
 
   }
+
+    public ListNode mergeTwoLists_recursive(ListNode list1, ListNode list2){
+        if(null == list1){
+            return list2;
+        }
+        if(null == list2){
+            return list1;
+        }
+
+        ListNode k = new ListNode();
+        if(list1.val < list2.val){
+            list1.next = mergeTwoLists_recursive(list1.next,list2);
+            return list1;
+        }
+
+        list2.next = mergeTwoLists_recursive(list1,list2.next);
+        return list2;
+
+    }
 
 
   public static void main(String[] args){
